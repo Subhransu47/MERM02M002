@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNi5tnmAY2ga5KZ6rpkv9Fx0_Mlt62Rkcgtw&s);
+}
+.login-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(186, 176, 176, 0.2);
+    text-align: center;   
+}
+.login-box h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login-box input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 14px;
+}
+.login-box input[type="password"] {
+    width: 100%;
+     padding: 10px;
+    margin: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 14px;
+}
+
+.login-box .options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.login-box .options input {
+  margin-right: 5px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: rgb(186, 5, 5);
+  background-color: rgb(232, 224, 224);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.24sec;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+.login-box .register {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login-box a {
+  color: rgb(247, 240, 240);
+  text-decoration: none;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}
