@@ -118,3 +118,32 @@ for(let e of numArr){
     sumNu+=e;
 }
 console.log(sumNu)
+
+// Qn.1) We are given array of marks of students Filter our of the marks of students that scored 50+. 
+let marks = [45, 67, 38, 90, 52, 49, 73];
+
+let afterFilter = marks.filter((e)=> {
+  return e >= 50;
+});
+
+console.log("Marks 50 or above:", afterFilter);
+
+// Qn.2) Take a number n as input from user, Create an array of numbers from 1 to n. Use the reduce method to calculate sum of all numbers in the array. Use the reduce method to calculate product of all numbers in the array.
+
+let n=prompt("Enter a number")
+
+let from1ToN=[]
+for (let i = 1; i < n; i++) {
+    from1ToN.push(i);
+}
+console.log(from1ToN)
+
+let sumFrom1ToN=from1ToN.reduce((accu,curr)=>{
+    return accu+curr
+})
+
+let multFrom1ToN=from1ToN.reduce((accu,curr)=>{
+    return accu*curr
+})
+console.log("Summation is :",sumFrom1ToN)
+console.log("Multiplication is :",multFrom1ToN)
